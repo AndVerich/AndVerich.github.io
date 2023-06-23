@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+
+#aboutsection{
+    text-transform: capitalize;
+}
+h2.contactform {
+    font-family: bold;
+}
+
+.list li {
+    color:green;
+}
+
+h1 {
+    background-color: red;
+}
+
+#contactsection {
+    background-color: #141c3a;
+}
+
+.overlay {
+    opacity: 0.5;
+}
+
+.table, th, td {
+    border: 2px solid black;
+}
+
+.img {
+    border-radius: 100%;
+}

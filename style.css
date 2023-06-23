@@ -1,0 +1,75 @@
+h1 {
+    background-color: #ADD8E6;
+    text-align: center;
+}
+
+
+.table, th, td {
+    border: 2px solid black;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#aboutsection {
+    text-align: center;
+}
+
+h3, h4, .list {
+    text-align: left;
+}
+
+.topnav .icon {
+
+    display: none;
+  
+  }
+  
+  /* When the screen is less than 600 pixels wide, hide all links. Show the icon that should open and close the nav (.icon) */
+  
+  @media only screen and (max-width: 600px) {
+  
+    .topnav a {display: none;}
+  
+    .topnav a.icon {
+  
+      float: right;
+  
+      display: block;
+  
+    }
+  
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the use clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  
+  @media only screen and (max-width: 600px) {
+  
+    .topnav.responsive {
+  
+      position: fixed;
+  
+  }
+  
+    .topnav.responsive a.icon {
+  
+      position: absolute;
+  
+      right: 0;
+  
+      top: 0;
+  
+    }
+  
+    .topnav.responsive a {
+  
+      float: none;
+  
+      display: block;
+  
+      text-align: left;
+  
+    }
+  
+  }
